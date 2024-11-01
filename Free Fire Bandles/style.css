@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(41, 41, 41);
+}
+.txt-group {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+    background-color: rgb(71, 71, 71);
+    border-radius: 15px;
+}
+.txt-centered-text {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.code-text {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
