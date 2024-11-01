@@ -1,5 +1,5 @@
 // Define the correct password
-const correctPassword = "kikidoyouloveme"; // Replace this with your desired password
+const correctPassword = "freelildurk"; // Replace this with your desired password
 
 // Function to check the password
 function checkPassword() {
