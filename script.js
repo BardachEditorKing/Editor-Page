@@ -40,3 +40,15 @@ function downloadBluestacks5() {
     link.download = "BlueStacks 5.13.0.1074.exe";     // Specify the name for the downloaded file
     link.click();
 }
+function downloadBSTweaker6() {
+    const link = document.createElement("a");
+    link.href = "BluestacksRequirements/BSTweaker6.rar"; // Specify the path to the file you want to download
+    link.download = "BSTweaker6.rar";     // Specify the name for the downloaded file
+    link.click();
+}
+function downloadBSTweaker5() {
+    const link = document.createElement("a");
+    link.href = "BluestacksRequirements/BSTweaker5.rar"; // Specify the path to the file you want to download
+    link.download = "BSTweaker5.rar";     // Specify the name for the downloaded file
+    link.click();
+}
