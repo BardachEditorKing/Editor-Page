@@ -28,3 +28,15 @@ function togglePassword() {
         eyeIcon.innerText = '👁️'; // Change icon back to eye
     }
 }
+function downloadBluestacks4() {
+        const link = document.createElement("a");
+        link.href = "BluestacksRequirements/BlueStacks 4.100.20.1001.exe"; // Specify the path to the file you want to download
+        link.download = "BlueStacks 4.100.20.1001.exe";     // Specify the name for the downloaded file
+        link.click();
+}
+function downloadBluestacks5() {
+    const link = document.createElement("a");
+    link.href = "BluestacksRequirements/BlueStacks 5.13.0.1074.exe"; // Specify the path to the file you want to download
+    link.download = "BlueStacks 5.13.0.1074.exe";     // Specify the name for the downloaded file
+    link.click();
+}
