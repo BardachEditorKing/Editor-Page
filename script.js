@@ -58,3 +58,9 @@ function downloadAwmFastSwitchMacro() {
     link.download = "AWM Fast Switch.ahk";     // Specify the name for the downloaded file
     link.click();
 }
+function downloadLiveAutoChat() {
+    const link = document.createElement("a");
+    link.href = "BluestacksRequirements/Live AutoChat.ahk"; // Specify the path to the file you want to download
+    link.download = "Live AutoChat.ahk";     // Specify the name for the downloaded file
+    link.click();
+}
