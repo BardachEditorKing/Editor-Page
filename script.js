@@ -58,9 +58,9 @@ function downloadAwmFastSwitchMacro() {
     link.download = "AWM Fast Switch.ahk";     // Specify the name for the downloaded file
     link.click();
 }
-function downloadLiveAutoChat() {
+function downloadOBSFacecamRecord() {
     const link = document.createElement("a");
-    link.href = "BluestacksRequirements/Live AutoChat.ahk"; // Specify the path to the file you want to download
-    link.download = "Live AutoChat.ahk";     // Specify the name for the downloaded file
+    link.href = "OBS BuckUp/obs-studio facecam seperated audios.rar"; // Specify the path to the file you want to download
+    link.download = "obs-studio facecam seperated audios.rar";     // Specify the name for the downloaded file
     link.click();
 }
