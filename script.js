@@ -54,13 +54,13 @@ function downloadBSTweaker5() {
 }
 function downloadAwmFastSwitchMacro() {
     const link = document.createElement("a");
-    link.href = "BluestacksRequirements/AWM Fast Switch.ahk"; // Specify the path to the file you want to download
+    link.href = "Live Stream/AWM Fast Switch.ahk"; // Specify the path to the file you want to download
     link.download = "AWM Fast Switch.ahk";     // Specify the name for the downloaded file
     link.click();
 }
 function downloadOBSFacecamRecord() {
     const link = document.createElement("a");
-    link.href = "OBS BuckUp/obs-studio facecam seperated audios.rar"; // Specify the path to the file you want to download
+    link.href = "Live Stream/obs-studio facecam seperated audios.rar"; // Specify the path to the file you want to download
     link.download = "obs-studio facecam seperated audios.rar";     // Specify the name for the downloaded file
     link.click();
 }
