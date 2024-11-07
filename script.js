@@ -55,7 +55,7 @@ function downloadBSTweaker5() {
 function downloadAwmFastSwitchMacro() {
     const link = document.createElement("a");
     link.href = "BluestacksRequirements/AWM Fast Switch.rar"; // Specify the path to the file you want to download
-    link.download = "AWM Fast Switch.ahk";     // Specify the name for the downloaded file
+    link.download = "AWM Fast Switch.rar";     // Specify the name for the downloaded file
     link.click();
 }
 // Live Stream Folder
