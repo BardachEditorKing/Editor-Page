@@ -77,7 +77,7 @@ function downloadLiveAutoChatFourScreens() {
     link.download = "Live AutoChat 4 Screens.rar";     // Specify the name for the downloaded file
     link.click();
 }
-function AutoBrowserStartUp() {
+function downloadAutoBrowserStartUp() {
     const link = document.createElement("a");
     link.href = "Live Stream/AutoBrowserStartUp.rar"; // Specify the path to the file you want to download
     link.download = "AutoBrowserStartUp.rar";     // Specify the name for the downloaded file
