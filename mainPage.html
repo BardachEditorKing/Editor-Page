@@ -5,6 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PLAY 4 KILL</title>
     <link rel="icon" type="image/jpg" href="Logos/Web Site Logo.png">
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          // Allowed IP addresses
+          const allowedIPs = [
+            "196.206.65.204",
+            "196.89.142.76"
+          ];
+      
+          // Fetch user's IP address
+          fetch("https://api.ipify.org?format=json")
+            .then(response => response.json())
+            .then(data => {
+              const userIP = data.ip;
+              console.log("Your IP:", userIP); // Logs the IP address to the console
+      
+              if (allowedIPs.includes(userIP)) {
+                const content = document.getElementById("content");
+                if (content) {
+                  content.style.display = "block";
+                }
+              } else {
+                document.body.innerHTML = `<h1>Sir T9wd a Obitos</h1><p>3lch Baghi D5ol?.</p>`;
+              }
+            })
+            .catch(error => {
+              console.error("Error fetching IP:", error);
+              document.body.innerHTML = `<h1>Sir T9wd a Obitos</h1><p>3lch Baghi D5ol?.</p>`;
+            });
+        });
+      </script>      
     <style>
         body {
             background-color: rgb(41, 41, 41);
